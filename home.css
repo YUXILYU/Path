@@ -1,0 +1,46 @@
+.content{
+    height: 80vh;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+
+}
+.item{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+}
+.item:hover{
+    font-weight: 500;
+}
+.row:first-child, .row:nth-child(3){
+    width: 60%;
+    margin: 0 auto;
+}
+.middle{
+    width: 80%;
+    margin: 0 auto;
+}
+/* .row:nth-child(3){
+   background-color: red;
+} */
+.h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+.h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+}
+.h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
